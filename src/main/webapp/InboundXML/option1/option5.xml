@@ -1,7 +1,7 @@
 <Response>
     <!-- Opcion 1, Enviar SMS -->
     <Say voice="man" language="es-us">Enviando el SMS a su celular.</Say>
-    <Sms from="+18045484128">
+    <Sms from="+18045484128" to="+573117818794">
         1. Tomar conciencia: Lo primero que debes hacer para empezar a reciclar es tomar conciencia de la importancia que tiene esto para nuestro planeta. Reciclar no es tan difícil como la mayoría de las personas lo cree, es cuestión de crear el hábito.
         2. Involucra a toda tu familia: Es muy importante que no sea solo una persona encargada por reciclar en casa, sino que todos lo hagan.
         3. Separa la basura correctamente: Para los restos no reciclables como los pañales, juguetes, teteros, toallas higienicas o tampones, entre otros. Se recomienda juntarlos en una caneca GRIS o con una etiqueta de este color.
