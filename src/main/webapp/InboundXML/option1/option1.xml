@@ -5,7 +5,7 @@
     </Sms>
     <Gather method="POST" numDigits="1" finishOnKey="#" action="http://{{tufileserver}}/InboundXML/LastRedirect.xml?tufileserver={{tufileserver}}">
       <Say voice="man" language="es-us">
-            Presiona cero para volver al menu principal 
+            Presiona UNO para volver al menu principal 
       </Say>
     </Gather>
 </Response>
