@@ -1,0 +1,15 @@
+<Response>
+  <!-- InboundXML inicial -->
+  <Gather method="POST" numDigits="1" finishOnKey="#" action="http://{{tufileserver}}/InboundXML/option2/option2redirect.xml?tufileserver={{tufileserver}}">
+  	<Say voice="male" language="es-us">
+    Presiona uno para conocer los horarios del recolector de reciclaje.
+      </Say>
+      <Say voice="male" language="es-us">
+    Presiona dos para comunicarte con un reciclador cercano.
+    </Say>
+     <Say voice="male" language="es-us">
+    Presiona cuatro para repetir el menú.
+      </Say>
+  </Gather>
+  <Say voice="woman" language="es-us">Hasta luego</Say>
+</Response>

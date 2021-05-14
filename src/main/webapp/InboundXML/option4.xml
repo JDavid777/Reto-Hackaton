@@ -1,0 +1,4 @@
+<Response>
+    <!-- Opcion 4, regresar al menu principal -->
+    <Redirect method="POST">http://{{tufileserver}}/InboundXML/main.xml?tufileserver={{tufileserver}}</Redirect>
+</Response>

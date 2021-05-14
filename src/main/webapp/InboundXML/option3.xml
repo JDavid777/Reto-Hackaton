@@ -1,0 +1,13 @@
+<Response>
+  <Say language="es-us">Por favor diga su nombre despues del tono.</Say>
+    <Record background="false" playBeep="True" finishOnKey="#"/>
+    
+  <!-- Opcion dos, Submenu de opciones de texto -->
+    <Say language="es-us">Por favor diga su número de contacto despues del tono.</Say>
+    <Record background="false" playBeep="True" finishOnKey="#"/>
+  <Say language="es-us">Por favor diga la ciudad en la que se encuentra.</Say>
+  <Record background="false" playBeep="True" finishOnKey="#"/>
+  <Gather method="POST" numDigits="1" finishOnKey="#" action="http://{{tufileserver}}/InboundXML/LastRedirect.xml?tufileserver={{tufileserver}}">
+    <Say voice="woman" language="es-us">Presione UNO para volver al menú principal  o DOS para salir.</Say>
+  </Gather>
+</Response>

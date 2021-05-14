@@ -1,0 +1,8 @@
+<Response>
+    <!-- Opcion cero, hablar con un agente -->
+    <Say voice="man" language="es-us">Su llamada esta siendo transferida al reciclador más cercano.</Say>
+    <Record background="true" playBeep="true" finishOnKey="#"/>
+    <Dial>
+        <Sip>9033137728000@186.28.237.130</Sip>
+    </Dial>
+</Response>

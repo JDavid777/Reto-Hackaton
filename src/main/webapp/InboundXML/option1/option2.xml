@@ -1,0 +1,15 @@
+<Response>
+    <!-- Opcion 1, Enviar SMS -->
+    <Say voice="man" language="es-us">Enviando el SMS a su celular.</Say>
+    <Sms from="+18045484128">
+        1. Tomar conciencia: Lo primero que debes hacer para empezar a reciclar es tomar conciencia de la importancia que tiene esto para nuestro planeta. Reciclar no es tan difícil como la mayoría de las personas lo cree, es cuestión de crear el hábito.
+        2. Involucra a toda tu familia: Es muy importante que no sea solo una persona encargada por reciclar en casa, sino que todos lo hagan.
+        3. Separa la basura correctamente: Para los vidrios se recomienda juntarlos en una caneca VERDE o con una etiqueta de este color.
+        4. Entrega tu reciclaje a las personas correctas: Ayudar a las personas que reciclan separando todo debidamente en los grupos correspondientes.
+    </Sms>
+    <Gather method="POST" numDigits="1" finishOnKey="#" action="http://{{tufileserver}}/InboundXML/LastRedirect.xml?tufileserver={{tufileserver}}">
+      <Say voice="man" language="es-us">
+            Presiona cero para volver al menu principal 
+      </Say>
+    </Gather>
+</Response>
