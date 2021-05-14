@@ -1,10 +1,11 @@
 <Response>
   <!-- InboundXML inicial -->
   <Gather method="POST" numDigits="1" finishOnKey="#" action="http://{{tufileserver}}/InboundXML/BaseRedirect.xml?tufileserver={{tufileserver}}">
-  	<Say voice="man" language="es-us">Presiona uno para obtener información general sobre cómo reciclar.</Say>
+    <Say voice="man" language="es-us">Bienvenido a nuestro centro de atencion.</Say>
+    <Say voice="man" language="es-us">Por favor, presiona uno para obtener información general sobre cómo reciclar.</Say>
       <Say voice="man" language="es-us">Presiona dos para obtener información sobre cómo entregar tu reciclaje.</Say>
       <Say voice="man" language="es-us">Presiona tres para registrarse como nuevo reciclador.</Say>
      <Say voice="man" language="es-us">Presiona cuatro para repetir el menú.</Say>
   </Gather>
-  <Say voice="man" language="es-us">Hasta luego</Say>
+  <Say voice="man" language="es-us">Gracias por comunicarse. Hasta luego</Say>
 </Response>
