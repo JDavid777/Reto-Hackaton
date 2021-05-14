@@ -1,6 +1,6 @@
 <Response>
     <!-- Opcion 1, Enviar SMS -->
-    <Say voice="man" language="es-us">Enviando el SMS a su celular.</Say>
+    <Say voice="man" language="es-us">Estamos enviandole un mensaje de texto con la información solicitada.</Say>
     <Sms from="+18045484128" to="+573117818794">Informacion.
     </Sms>
     <Gather method="POST" numDigits="1" finishOnKey="#" action="http://{{tufileserver}}/InboundXML/LastRedirect.xml?tufileserver={{tufileserver}}">
