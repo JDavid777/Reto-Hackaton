@@ -1,8 +1,8 @@
 <Response>
     <!-- Opcion 1, Enviar SMS -->
-    <!-- <Say voice="man" language="es-us">Estamos enviandole un mensaje de texto con la información solicitada.</Say> -->
-    <Sms from="+18045484128" to="+573117818794">Servicio de recolección de reciduos municipal. Horario de Servicio: Lunes: entre 3 y 6 pm. Viernes: entre 6 y 8 pm.</Sms>
-    <!-- <Gather method="POST" numDigits="1" finishOnKey="#" action="http://{{tufileserver}}/InboundXML/LastRedirect.xml?tufileserver={{tufileserver}}">
+    <Say voice="man" language="es-us">Estamos enviandole un mensaje de texto con la información solicitada.</Say> 
+    <!-- <Sms from="+18045484128" to="+573117818794">Servicio de recolección de reciduos municipal. Horario de Servicio: Lunes: entre 3 y 6 pm. Viernes: entre 6 y 8 pm.</Sms> -->
+    <Gather method="POST" numDigits="1" finishOnKey="#" action="http://{{tufileserver}}/InboundXML/LastRedirect.xml?tufileserver={{tufileserver}}">
       <Say voice="man" language="es-us">Presiona UNO para volver al menu principal, Presiona DOS para terminar la llamada</Say>
-    </Gather> -->
+    </Gather>
 </Response>
